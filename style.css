@@ -1,0 +1,224 @@
+/* css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* css reset */
+html{
+    font-size: 100%;
+}
+body{
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #E2E2E2;
+    max-width: 1024px;
+    color: #595B66;
+    font-family: 'Microsoft Yahei', sans-serif;
+}
+
+h1{
+    font-size: 2.2rem;
+    font-weight: bold;
+    border-bottom: 2px solid #797979;
+    color: #797979;
+    padding: 0.6rem 0;
+    margin: 1rem 0;
+}
+.hint{
+    padding: 1rem;
+    background: #797979;
+    color: #fff;
+    border-radius: 0.3rem;
+    margin:  1rem 0;
+}
+.hint a{
+    color: #FFD200;
+}
+h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 2px solid #797979;
+    padding: 0.5rem 0;
+    margin: 1.5rem 0;
+}
+h4{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.6rem 0;
+    margin: 1rem 0;
+}
+.box{
+    background: #fff;
+    display: flex;
+}
+.box-tall{
+    height: 800px;
+}
+.item{
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    vertical-align: middle;
+    margin: 5px;
+    background-color: #ffd200;
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+}
+.item-tall{
+    height: 300px;
+    line-height: 300px;
+    font-size: 8rem;
+}
+.box-1{
+    flex-direction: row;
+}
+.box-2{
+    flex-wrap: nowrap;
+}
+.box-3{
+    flex-wrap: wrap;
+}
+.box-4{
+    flex-wrap: wrap-reverse;
+}
+.box-5{
+    flex-flow: row wrap;
+}
+.box-6{
+    justify-content: flex-start;
+}
+.box-7{
+    justify-content: flex-end;
+}
+.box-8{
+    justify-content: center;
+}
+.box-9{
+    justify-content: space-between;
+}
+.box-10{
+    justify-content: space-around;
+}
+.box-11{
+    align-items: flex-start;
+}
+.box-12{
+    align-items: flex-end;
+}
+.box-13{
+    align-items: center;
+}
+.box-14{
+    align-items: baseline;
+    text-decoration: underline;
+    color: #fff;
+}
+.box-14 .item{
+    line-height: 8rem;
+}
+.box-15{
+    align-items: stretch;
+}
+.box-15 .item{
+    height: auto;
+}
+.box-16{
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.box-17{
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.box-18{
+    flex-wrap: wrap;
+    align-content: center;
+}
+.box-19{
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.box-20{
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.box-21{
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+.box-21 .item{
+    height: auto;
+}
+.box-22 .order{
+    order: -1;
+}
+.box-23 .grow{
+    flex-grow: 1;
+    width: auto;
+}
+.box-23 .grow-2{
+    flex-grow: 2;
+}
+.box-24 .item{
+    width: 400px;
+}
+.box-24 .shrink{
+    flex-shrink: 0;
+}
+.box-25 .item{
+    width: 400px;
+    flex-basis: 200px;
+}
+.box-26{
+    height: 400px;
+}
+.box-26 .item{
+    align-self: center;
+}
+.box-26 .end{
+    align-self: flex-start;
+}
+
+
+
